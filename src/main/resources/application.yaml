@@ -1,0 +1,17 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /flipkart
+  
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: system
+    password: 7017
+    
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
